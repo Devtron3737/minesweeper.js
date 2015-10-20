@@ -1,0 +1,104 @@
+html, body, header, nav, h1, a,
+ul, li, strong, main, button, i,
+section, img, div, h2, p, form,
+fieldset, label, input, textarea,
+span, article, footer, time, small {
+  border: 0;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: 'Lobster', cursive;
+  text-decoration: inherit;
+  text-align: inherit;
+  color: inherit;
+  background: transparent;
+}
+
+h1 {
+  font-size: 50px;
+  color: white;
+  left: 370px;
+  position: relative;
+}
+
+h2{
+  font-size: 18px;
+  position: absolute;
+  top: 35px;
+  left: 610px;
+  color: white;
+}
+
+body {
+  background: #663399;
+}
+
+#minesweeper-game {
+  display: block;
+  margin: 0 auto;
+  width: auto;
+  height: auto;
+}
+
+.row {
+  /*width: 570px;*/
+  width: 650px;
+  margin: 0 auto;
+}
+
+.row:after {
+  /*height: auto;*/
+  /*width: 570px;*/
+  content: "";
+  clear: both;
+  display: block;
+}
+
+
+.tile {
+  /*display: block;
+  float: left;
+  height: 20px;
+  width: 20px;
+  background: grey;
+  border: 1px solid white;
+  border-radius: 5%;
+  border-style: outset;
+  text-align: center;*/
+  display: block;
+  height: 20px;
+  width: 20px;
+  background: gray;
+  float: left;
+  border-style: outset;
+  border: 1px white solid;
+  line-height: 20px;
+  /*padding-left: 3px;*/
+  font-size: 14px;
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+}
+
+.revealed {
+  background: lightgrey;
+  border-style: inset;
+}
+
+.game-end#modal {
+  display: block;
+  z-index: 1;
+  height: auto;
+  width: auto;
+  background-color: rgba(0,0,0,0.62);
+  position: absolute;
+}
+
+.game-message {
+
+}
+
+.replay {
+
+}
