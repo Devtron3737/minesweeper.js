@@ -3,7 +3,7 @@ var Game = React.createClass({
     return {
       gameOver: false,
       gameWon: false,
-      board: new Minesweeper.Board(25, 40)
+      board: new Minesweeper.Board(25, 90)
     };
   },
 
